@@ -30,7 +30,7 @@ fn main(){
     if input_string.chars().nth( (index-1) as usize ).unwrap() != 'o' {
       validation = false;
       break;
-    };
+    }
   }
   
   match validation {
